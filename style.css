@@ -16,28 +16,6 @@ a {
   color: #333;
 }
 
-/* Header styling */
-header {
-  background-color: #eee;
-  padding: 20px;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-
-header nav ul li a {
-  display: block;
-  padding: 10px;
-  color: #333;
-}
-
-header nav ul li a:hover {
-  background-color: #ddd;
-}
-
 /* Main content styling */
 main {
   max-width: 960px;
