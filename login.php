@@ -2,12 +2,11 @@
 
 session_start();
  
-if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: welcome.php");
-    exit;
+if (isset ($_SESSION["loggedin"]) && $_SESSION["loggein"] === true{
+ header ("location welcme.php");
+ exit;
 }
- 
-require_once "config.php";
+    require_once "config.php";
 
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
@@ -58,7 +57,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     $login_err = "Invalid username or password.";
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Oops! Something went wrong. Please try again later!";
             }
 
             // Close statement
@@ -90,7 +89,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </header>
   <main>
     <h1>Log In to My Clothes Store</h1>
-    <p>Welcome back! Please enter your login details to continue:</p>
+    <p>Welcome back! Please, enter your login details to continue!</p>
     <?php 
       if(!empty($login_err)){
           echo '<span>' . $login_err . '</span>';
