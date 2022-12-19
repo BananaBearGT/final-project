@@ -1,9 +1,11 @@
+/* Reset default styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* General styling */
 body {
   font-family: sans-serif;
   color: #333;
@@ -14,6 +16,29 @@ a {
   color: #333;
 }
 
+/* Header styling */
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 10px;  
+  color: #333;
+}
+
+header nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Main content styling */
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -53,6 +78,14 @@ main .product .price {
   color: #333;
 }
 
+/* Footer styling */
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* General styling */
 body {
   font-family: sans-serif;
   color: #333;
@@ -63,6 +96,7 @@ a {
   color: #333;
 }
 
+/* Header styling */
 header {
   background-color: #eee;
   padding: 20px;
@@ -84,6 +118,7 @@ header nav ul li a:hover {
   background-color: #ddd;
 }
 
+/* Main content styling */
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -115,50 +150,17 @@ main h1 {
 main h2 {
   background-color: #ddd;
   padding: 20px;
-  }
-
-
-main form {
-  width: 300px;
-  margin: 0 auto;
 }
 
-main form label {
-  display: block;
-  font-size: 1.2em;
-  margin-bottom: 5px;
-}
-
-main form input[type="text"],
-main form input[type="email"],
-main form input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 1.2em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-main form input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 1.2em;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: #fff;
-  cursor: pointer;
-}
-
-main form input[type="submit"]:hover {
-  background-color: #444;
-}
-
+/* Footer styling */
 footer {
   background-color: #eee;
   padding: 20px;
   text-align: center;
-  margin-top: auto;
-
+}
+button{
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 5px;
 }
