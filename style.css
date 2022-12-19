@@ -1,0 +1,160 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling */
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+header nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Main content styling */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main .featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .product {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+main .product img {
+  width: 100%;
+  height: auto;
+}
+
+main .product h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+main .product .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer styling */
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* General styling */
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+header nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Main content styling */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+/* About page styling */
+main {
+  background-color: #f8f8f8;
+}
+
+main h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main h2 {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
