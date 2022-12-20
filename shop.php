@@ -59,8 +59,34 @@ mysqli_close($link);
   <title>Shop My Clothes Store</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <style type="text/css">
-    button{
-      cursor: pointer;
+
+    input[type="submit"] {
+        border: 1px solid #0A3D5B;
+        background-color: transparent;
+        color: #0A3D5B;
+        padding: 20px 60px;
+        font-size: 18px;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        text-transform: capitalize;
+    }
+
+    input.anim {
+      background-image: linear-gradient(0, #0A3D5B, #0A3D5B);
+      background-size: 0;
+      transition: .8s;
+      background-repeat: no-repeat;
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+
+    input.anim:hover {
+        background-size: 100%;
+        color: #fff;
     }
   </style>
 </head>
@@ -86,7 +112,7 @@ mysqli_close($link);
         <h3>Oversized Fit Cotton Hoodie</h3>
         <p class="price" style="margin-bottom: 5px;">$39.99</p>
         <form method="post">
-          <input type="submit" name="1"
+          <input class="anim" type="submit" name="1"
                 value="Add to Cart"/>
         </form>
       </div>
@@ -95,7 +121,7 @@ mysqli_close($link);
         <h3>Oversized Fit Cardigan</h3>
         <p class="price" style="margin-bottom: 5px;">$49.99</p>
         <form method="post">
-          <input type="submit" name="2"
+          <input class="anim" type="submit" name="2"
                 value="Add to Cart"/>
         </form>
       </div>
@@ -104,7 +130,7 @@ mysqli_close($link);
         <h3>Double-breasted blazer dress</h3>
         <p class="price" style="margin-bottom: 5px;">$39.99</p>
         <form method="post">
-          <input type="submit" name="3"
+          <input class="anim" type="submit" name="3"
                 value="Add to Cart"/>
         </form>
       </div>
