@@ -136,7 +136,7 @@ mysqli_close($link);
       </div>
     </div>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
