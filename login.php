@@ -2,9 +2,9 @@
 
 session_start();
  
-if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true{
- header ("location welcme.php");
- exit;
+if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: profile.php");
+    exit;
 }
     require_once "config.php";
 
@@ -36,7 +36,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 mysqli_stmt_store_result($stmt);
                 
                 if(mysqli_stmt_num_rows($stmt) == 1){                    
-                    // Bind result variables
                     mysqli_stmt_bind_result($stmt, $id, $username, $real_password);
                     if(mysqli_stmt_fetch($stmt)){
                         if($password == $real_password){
@@ -53,7 +52,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         }
                     }
                 } else{
-                    // Username doesn't exist, display a generic error message
                     $login_err = "Invalid username or password.";
                 }
             } else{
