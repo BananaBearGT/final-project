@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <input type="submit" value="Sign Up">
     </form> 
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
