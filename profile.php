@@ -74,7 +74,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         Sign out
     </a>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
