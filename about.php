@@ -32,7 +32,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <h2>Our Philosophy</h2>
     <p>At My Clothes Store, we believe that fashion should be accessible to everyone. We strive to provide high-quality, stylish clothing at affordable prices. We also believe in the importance of sustainability and strive to minimize our environmental impact by using eco-friendly materials and practices whenever possible.</p>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
