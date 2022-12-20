@@ -61,8 +61,11 @@ mysqli_close($link);
   <style type="text/css">
 
     input[type="submit"] {
+        cursor: pointer; 
         border: 1px solid #0A3D5B;
+        border-radius: 3px;
         background-color: transparent;
+        background: transparent;
         color: #0A3D5B;
         padding: 20px 60px;
         font-size: 18px;
