@@ -30,7 +30,7 @@
       <button><input style="border: none;" type="submit" value="Send Message"></button>
     </form> 
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
