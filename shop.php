@@ -67,12 +67,9 @@ mysqli_close($link);
         padding: 20px 60px;
         font-size: 18px;
         font-weight: 500;
-        background: transparent;
-        cursor: pointer;
         display: inline-block;
         margin-right: 15px;
         margin-bottom: 30px;
-        border-radius: 3px;
         text-transform: capitalize;
     }
 
