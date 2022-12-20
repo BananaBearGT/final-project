@@ -104,7 +104,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </form> 
     <p>Don't have an account? <a href="#">Sign Up</a></p>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
