@@ -42,7 +42,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         E-mail: <a href="#">mail@demolink.org</a>
       </div>
   </main>
-  <footer>
+  <footer style="position: absolute; bottom: 0px; width: 100%;">
     <p>My Clothes Store 2022</p>
   </footer>
 </body>
