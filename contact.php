@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
 <html>
 <head>
   <title>Contact My Clothes Store</title>
@@ -20,13 +27,13 @@
   <main>
     <h1 style="background-color: white; color: black;">Contact My Clothes Store</h1>
     <p style="font-size: 25px; margin-bottom: 20px;">Get in touch with us:</p>
-    <form>
+    <form >
       <label for="name">Name:</label><br>
       <input type="text" id="name" name="name" style="margin-bottom: 10px;"><br>
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" style="margin-bottom: 10px;"><br>
       <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" style="margin-bottom: 10px;"></textarea><br>
+      <textarea id="message" name="message" rows="5" style="margin-bottom: 10px; width: 500px; height: 300px;"></textarea><br>
       <button><input style="border: none;" type="submit" value="Send Message"></button>
     </form> 
   </main>
